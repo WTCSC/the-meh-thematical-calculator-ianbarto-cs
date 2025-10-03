@@ -30,3 +30,18 @@ Because math should be suspenseful. 😏
   
 ```bash
 python calculator.py
+
+## Decision Tree
+
+Start
+ └── Input number1
+      └── Input number2
+           └── Choose operation (+, -, *, /, ^)
+                ├── '+' → Add → Show result → Calculate again? (y/n)
+                ├── '-' → Subtract → Show result → Calculate again? (y/n)
+                ├── '*' → Multiply → Show result → Calculate again? (y/n)
+                ├── '/' → Divide
+                │        ├── number2 ≠ 0 → Show result → Calculate again? (y/n)
+                │        └── number2 = 0 → Show error → Calculate again? (y/n)
+                ├── '^' → Exponent → Show result → Calculate again? (y/n)
+                └── Invalid input → Show error → Loop back
