@@ -30,7 +30,7 @@ Because math should be suspenseful. 😏
   
 ```bash
 python calculator.py
-
+```
 ## Decision Tree
 
 Start
