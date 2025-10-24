@@ -45,3 +45,14 @@ Start
 ------------------│        └── number2 = 0 → Show error → Calculate again? (y/n)  
 ------------------├── '^' → Exponent → Show result → Calculate again? (y/n)  
 ------------------└── Invalid input → Show error → Loop back  
+
+## Test
+
+We have the best test  
+Nobodys tests beter than me  
+For that, we test to make sure all equations work, I only had to change my entire file to get tests working  
+  
+example test    
+  
+def test_add_two_positive_numbers():  
+    assert new_calc.add(1, 2) == 3  
