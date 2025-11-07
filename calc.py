@@ -1,3 +1,5 @@
+#This is the old iteration of the calculator, this file functions, but does not allow for easy testing.
+
 from time import sleep
 
 def add(number1, number2):
