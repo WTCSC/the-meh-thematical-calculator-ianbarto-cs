@@ -1,3 +1,5 @@
+#This is the test file for the new_calc.py calculator implementation. It uses pytest in order to run unit tests on the calculator functions.
+
 import new_calc
 import pytest
 
@@ -39,6 +41,8 @@ def test_multiply_by_zero():
 
 
 # This tests the division functions, making sure that you cant divide by zero, and that everything else is calculated correctly.
+# This is done in order to prevent errors in the calculator.
+# These tests can provide confidence that the division function is working as intended.
 
 
 def test_divide_two_positive_numbers():
